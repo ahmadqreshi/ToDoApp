@@ -85,6 +85,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Tasks" id="h7C-cH-UdR">
                         <barButtonItem key="rightBarButtonItem" title="create" id="LRc-jd-m3W">
+                            <color key="tintColor" systemColor="systemMintColor"/>
                             <connections>
                                 <action selector="createButtonPressed:" destination="BYZ-38-t0r" id="BpU-Cs-ctP"/>
                             </connections>
@@ -181,7 +182,9 @@
                                             <constraint firstAttribute="height" constant="40" id="RiP-gI-LGT"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Update"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Update">
+                                            <color key="baseBackgroundColor" systemColor="systemMintColor"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="updateButtonPressed:" destination="TMh-SK-rp1" eventType="touchUpInside" id="hya-Nk-gOC"/>
                                         </connections>
@@ -305,7 +308,9 @@
                                     <constraint firstAttribute="height" constant="40" id="lWu-jw-YT0"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Create Task"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Create Task">
+                                    <color key="baseBackgroundColor" systemColor="systemMintColor"/>
+                                </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>

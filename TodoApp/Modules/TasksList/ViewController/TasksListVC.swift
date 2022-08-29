@@ -92,8 +92,9 @@ extension TasksListVC : UITableViewDelegate, UITableViewDataSource {
                 let task = tasksListViewModel.tasksData[index]
                 tasksListViewModel.delete(task)
                 setUpTableViewSections()
+                tasksListTableView.reloadData()
             }
-            tasksListTableView.reloadData()
+            
         }
     }
 }
